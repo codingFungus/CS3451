@@ -89,9 +89,11 @@ class OpenGLTriangleMesh : public OpenGLMesh<TriangleMesh<3> >
 	std::shared_ptr<OpenGLFbos::OpenGLFbo> fbo;
 	glm::mat4 shadow_pv;
 	glm::mat4 model_matrix=glm::mat4(1.0f);
-	
-	bool use_mat=false;
-	Material mat;
+
+	glm::vec3 ka = glm::vec3(0.1f, 0.1f, 0.1f);		// object mateiral ambient coefficient
+	glm::vec3 kd = glm::vec3(0.7f, 0.7f, 0.7f);		// object material diffuse coefficient
+	glm::vec3 ks = glm::vec3(2.f, 2.f, 2.f);		// object material specular coefficient
+	float shininess = 0.f;							// object material shininess coefficient
 
 	Array<Vector4f> vtx_color;
 	Array<Vector3> vtx_normal;
@@ -99,6 +101,18 @@ class OpenGLTriangleMesh : public OpenGLMesh<TriangleMesh<3> >
 	GLfloat iTime=0;
 
 	void setTime(GLfloat time) { iTime=time; }
+
+	void Set_Model_Matrix(const Eigen::Matrix<float, 4, 4>& _model_matrix)
+	{
+		for (int i = 0; i < 4; i++)
+			for (int j = 0; j < 4; j++)
+				model_matrix[j][i] = _model_matrix(i, j); // j,i = i,j
+	}
+
+	void Set_Ka(const Vector3f& color) { ka[0] = color[0]; ka[1] = color[1]; ka[2] = color[2]; }
+	void Set_Kd(const Vector3f& color) { kd[0] = color[0]; kd[1] = color[1]; kd[2] = color[2]; }
+	void Set_Ks(const Vector3f& color) { ks[0] = color[0]; ks[1] = color[1]; ks[2] = color[2]; }
+	void Set_Shininess(const float s) { shininess = s; }
 
     OpenGLTriangleMesh(){color=default_mesh_color;name="triangle_mesh";shading_mode=ShadingMode::Lighting;}
 
@@ -160,6 +174,7 @@ class OpenGLTriangleMesh : public OpenGLMesh<TriangleMesh<3> >
 		case ShadingMode::Lighting:
 		{use_vtx_color=false;use_vtx_normal=true; use_vtx_tangent=false; use_vtx_tex=false; }break;
 		case ShadingMode::A2:
+		case ShadingMode::Phong:
 		{use_vtx_color=true;use_vtx_normal=true; use_vtx_tangent=false; use_vtx_tex=false;}break;
 		case ShadingMode::Texture:
 		{use_vtx_color=true; use_vtx_normal=true; use_vtx_tangent=true; use_vtx_tex=true; }break;
@@ -225,28 +240,31 @@ class OpenGLTriangleMesh : public OpenGLMesh<TriangleMesh<3> >
 		case ShadingMode::None:{
 			std::shared_ptr<OpenGLShaderProgram> shader=shader_programs[0];
 			shader->Begin();
+			shader->Set_Uniform_Matrix4f("model",glm::value_ptr(model_matrix));
 			Bind_Uniform_Block_To_Ubo(shader,"camera");
 			glBindVertexArray(vao);
 			glDrawElements(GL_TRIANGLES,ele_size,GL_UNSIGNED_INT,0);
-			shader->End();
-		}break;
-		case ShadingMode::Lighting:{
-			std::shared_ptr<OpenGLShaderProgram> shader=shader_programs[1];
-			shader->Begin();
-			if(use_mat)shader->Set_Uniform_Mat(&mat);
-			glEnable(GL_POLYGON_OFFSET_FILL);
-			glPolygonOffset(1.f,1.f);
-			Bind_Uniform_Block_To_Ubo(shader,"camera");
-			Bind_Uniform_Block_To_Ubo(shader,"lights");
-			glBindVertexArray(vao);
-			glDrawElements(GL_TRIANGLES,ele_size,GL_UNSIGNED_INT,0);
-            glDisable(GL_POLYGON_OFFSET_FILL);
 			shader->End();
 		}break;
 		case ShadingMode::A2:{
 			std::shared_ptr<OpenGLShaderProgram> shader=shader_programs[0];
 			shader->Begin();
+			shader->Set_Uniform_Matrix4f("model",glm::value_ptr(model_matrix));
 			shader->Set_Uniform("iTime", iTime);
+			Bind_Uniform_Block_To_Ubo(shader,"camera");
+			glBindVertexArray(vao);
+			glDrawElements(GL_TRIANGLES,ele_size,GL_UNSIGNED_INT,0);
+			shader->End();		
+		}break;
+		case ShadingMode::Phong:{
+			std::shared_ptr<OpenGLShaderProgram> shader=shader_programs[0];
+			shader->Begin();
+			shader->Set_Uniform_Matrix4f("model",glm::value_ptr(model_matrix));
+			shader->Set_Uniform("iTime", iTime);
+			shader->Set_Uniform("ka", ka);
+			shader->Set_Uniform("kd", kd);
+			shader->Set_Uniform("ks", ks);
+			shader->Set_Uniform("shininess", shininess);
 			Bind_Uniform_Block_To_Ubo(shader,"camera");
 			glBindVertexArray(vao);
 			glDrawElements(GL_TRIANGLES,ele_size,GL_UNSIGNED_INT,0);
@@ -263,6 +281,10 @@ class OpenGLTriangleMesh : public OpenGLMesh<TriangleMesh<3> >
 			}
 
 			shader->Set_Uniform_Matrix4f("model",glm::value_ptr(model_matrix));
+			shader->Set_Uniform("ka", ka);
+			shader->Set_Uniform("kd", kd);
+			shader->Set_Uniform("ks", ks);
+			shader->Set_Uniform("shininess", shininess);
 
 			Bind_Uniform_Block_To_Ubo(shader,"camera");
 			glBindVertexArray(vao);
@@ -280,13 +302,10 @@ class OpenGLTriangleMesh : public OpenGLMesh<TriangleMesh<3> >
 			
 			shader->Set_Uniform_Matrix4f("model",glm::value_ptr(model_matrix));
 			
-			//if(use_mat)shader->Set_Uniform_Mat(&mat);
 			Bind_Uniform_Block_To_Ubo(shader,"camera");
 			Bind_Uniform_Block_To_Ubo(shader,"lights");
 			if(fbo!=nullptr)fbo->Bind_As_Texture(0);
 			shader->Set_Uniform("shadow_map",0);
-
-			
 
 			shader->Set_Uniform_Matrix4f("shadow_pv",glm::value_ptr(shadow_pv));
 			glBindVertexArray(vao);
@@ -306,7 +325,8 @@ public:typedef OpenGLMesh<TriangleMesh<3> > Base;
 	Vector2f iResolution=Vector2f(1280, 960);
 	GLuint FramebufferName=0;
 	GLuint renderedTexture;
-
+	bool use_tex = false;
+	
 	void setResolution(float w, float h) { iResolution=Vector2f(w, h); }
 
 	void setTime(GLfloat time) { iTime=time; }
@@ -369,6 +389,13 @@ public:typedef OpenGLMesh<TriangleMesh<3> > Base;
 			shader->Set_Uniform("iResolution", iResolution);
 			shader->Set_Uniform("iTime", iTime);
 			shader->Set_Uniform("iFrame", iFrame);
+			if (use_tex) {
+                // ! We must use i+1 since 0 slot is used by the renderedTexture
+                for (int i = 0; i < textures.size(); i++) {
+                    shader->Set_Uniform(textures[i].binding_name, i + 1);
+                    textures[i].texture->Bind(i + 1);
+                }
+            }
 			glEnable(GL_POLYGON_OFFSET_FILL);
 			glPolygonOffset(1.f, 1.f);
 			glBindVertexArray(vao);
