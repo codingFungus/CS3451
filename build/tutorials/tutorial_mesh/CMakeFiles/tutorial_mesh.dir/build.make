@@ -209,6 +209,62 @@ tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tutorial_mesh.dir/main.cpp.s"
 	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_mesh" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_mesh/main.cpp" -o CMakeFiles/tutorial_mesh.dir/main.cpp.s
 
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o: tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/flags.make
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o: /Users/anqizheng/desktop/computer\ graphics/CS3451/ext/tiny_obj_loader/TinyObjLoader.cpp
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o: tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_mesh" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o -MF CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o.d -o CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o -c "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_obj_loader/TinyObjLoader.cpp"
+
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.i"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_mesh" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_obj_loader/TinyObjLoader.cpp" > CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.i
+
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.s"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_mesh" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_obj_loader/TinyObjLoader.cpp" -o CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.s
+
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o: tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/flags.make
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o: /Users/anqizheng/desktop/computer\ graphics/CS3451/ext/tiny_obj_loader/tiny_obj_loader.cpp
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o: tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_mesh" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o -MF CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o.d -o CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o -c "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_obj_loader/tiny_obj_loader.cpp"
+
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.i"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_mesh" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_obj_loader/tiny_obj_loader.cpp" > CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.i
+
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.s"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_mesh" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_obj_loader/tiny_obj_loader.cpp" -o CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.s
+
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/stb/StbImage.cpp.o: tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/flags.make
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/stb/StbImage.cpp.o: /Users/anqizheng/desktop/computer\ graphics/CS3451/ext/stb/StbImage.cpp
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/stb/StbImage.cpp.o: tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/stb/StbImage.cpp.o"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_mesh" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/stb/StbImage.cpp.o -MF CMakeFiles/tutorial_mesh.dir/__/__/ext/stb/StbImage.cpp.o.d -o CMakeFiles/tutorial_mesh.dir/__/__/ext/stb/StbImage.cpp.o -c "/Users/anqizheng/desktop/computer graphics/CS3451/ext/stb/StbImage.cpp"
+
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/stb/StbImage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tutorial_mesh.dir/__/__/ext/stb/StbImage.cpp.i"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_mesh" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anqizheng/desktop/computer graphics/CS3451/ext/stb/StbImage.cpp" > CMakeFiles/tutorial_mesh.dir/__/__/ext/stb/StbImage.cpp.i
+
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/stb/StbImage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tutorial_mesh.dir/__/__/ext/stb/StbImage.cpp.s"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_mesh" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/ext/stb/StbImage.cpp" -o CMakeFiles/tutorial_mesh.dir/__/__/ext/stb/StbImage.cpp.s
+
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o: tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/flags.make
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o: /Users/anqizheng/desktop/computer\ graphics/CS3451/ext/tiny_gltf/TinyGltfLoader.cpp
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o: tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_mesh" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o -MF CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o.d -o CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o -c "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_gltf/TinyGltfLoader.cpp"
+
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.i"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_mesh" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_gltf/TinyGltfLoader.cpp" > CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.i
+
+tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.s"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_mesh" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_gltf/TinyGltfLoader.cpp" -o CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.s
+
 # Object files for target tutorial_mesh
 tutorial_mesh_OBJECTS = \
 "CMakeFiles/tutorial_mesh.dir/__/__/src/OpenGLBufferObjects.cpp.o" \
@@ -220,7 +276,11 @@ tutorial_mesh_OBJECTS = \
 "CMakeFiles/tutorial_mesh.dir/__/__/src/OpenGLWindow.cpp.o" \
 "CMakeFiles/tutorial_mesh.dir/__/__/src/glad.cpp.o" \
 "CMakeFiles/tutorial_mesh.dir/__/__/src/mikktspace.cpp.o" \
-"CMakeFiles/tutorial_mesh.dir/main.cpp.o"
+"CMakeFiles/tutorial_mesh.dir/main.cpp.o" \
+"CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o" \
+"CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o" \
+"CMakeFiles/tutorial_mesh.dir/__/__/ext/stb/StbImage.cpp.o" \
+"CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o"
 
 # External object files for target tutorial_mesh
 tutorial_mesh_EXTERNAL_OBJECTS =
@@ -235,9 +295,13 @@ tutorials/tutorial_mesh/tutorial_mesh: tutorials/tutorial_mesh/CMakeFiles/tutori
 tutorials/tutorial_mesh/tutorial_mesh: tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/src/glad.cpp.o
 tutorials/tutorial_mesh/tutorial_mesh: tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/src/mikktspace.cpp.o
 tutorials/tutorial_mesh/tutorial_mesh: tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/main.cpp.o
+tutorials/tutorial_mesh/tutorial_mesh: tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o
+tutorials/tutorial_mesh/tutorial_mesh: tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o
+tutorials/tutorial_mesh/tutorial_mesh: tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/stb/StbImage.cpp.o
+tutorials/tutorial_mesh/tutorial_mesh: tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o
 tutorials/tutorial_mesh/tutorial_mesh: tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/build.make
 tutorials/tutorial_mesh/tutorial_mesh: tutorials/tutorial_mesh/CMakeFiles/tutorial_mesh.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable tutorial_mesh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable tutorial_mesh"
 	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_mesh" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tutorial_mesh.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

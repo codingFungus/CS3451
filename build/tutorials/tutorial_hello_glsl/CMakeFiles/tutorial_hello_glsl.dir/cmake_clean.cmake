@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tutorial_hello_glsl.dir/__/__/ext/stb/StbImage.cpp.o"
+  "CMakeFiles/tutorial_hello_glsl.dir/__/__/ext/stb/StbImage.cpp.o.d"
+  "CMakeFiles/tutorial_hello_glsl.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o"
+  "CMakeFiles/tutorial_hello_glsl.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o.d"
   "CMakeFiles/tutorial_hello_glsl.dir/__/__/src/OpenGLBufferObjects.cpp.o"
   "CMakeFiles/tutorial_hello_glsl.dir/__/__/src/OpenGLBufferObjects.cpp.o.d"
   "CMakeFiles/tutorial_hello_glsl.dir/__/__/src/OpenGLMarkerObjects.cpp.o"

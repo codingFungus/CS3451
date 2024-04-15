@@ -209,6 +209,34 @@ assignments/a8/CMakeFiles/a8.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a8.dir/main.cpp.s"
 	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a8" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/assignments/a8/main.cpp" -o CMakeFiles/a8.dir/main.cpp.s
 
+assignments/a8/CMakeFiles/a8.dir/__/__/ext/stb/StbImage.cpp.o: assignments/a8/CMakeFiles/a8.dir/flags.make
+assignments/a8/CMakeFiles/a8.dir/__/__/ext/stb/StbImage.cpp.o: /Users/anqizheng/desktop/computer\ graphics/CS3451/ext/stb/StbImage.cpp
+assignments/a8/CMakeFiles/a8.dir/__/__/ext/stb/StbImage.cpp.o: assignments/a8/CMakeFiles/a8.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object assignments/a8/CMakeFiles/a8.dir/__/__/ext/stb/StbImage.cpp.o"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a8" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignments/a8/CMakeFiles/a8.dir/__/__/ext/stb/StbImage.cpp.o -MF CMakeFiles/a8.dir/__/__/ext/stb/StbImage.cpp.o.d -o CMakeFiles/a8.dir/__/__/ext/stb/StbImage.cpp.o -c "/Users/anqizheng/desktop/computer graphics/CS3451/ext/stb/StbImage.cpp"
+
+assignments/a8/CMakeFiles/a8.dir/__/__/ext/stb/StbImage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a8.dir/__/__/ext/stb/StbImage.cpp.i"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a8" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anqizheng/desktop/computer graphics/CS3451/ext/stb/StbImage.cpp" > CMakeFiles/a8.dir/__/__/ext/stb/StbImage.cpp.i
+
+assignments/a8/CMakeFiles/a8.dir/__/__/ext/stb/StbImage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a8.dir/__/__/ext/stb/StbImage.cpp.s"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a8" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/ext/stb/StbImage.cpp" -o CMakeFiles/a8.dir/__/__/ext/stb/StbImage.cpp.s
+
+assignments/a8/CMakeFiles/a8.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o: assignments/a8/CMakeFiles/a8.dir/flags.make
+assignments/a8/CMakeFiles/a8.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o: /Users/anqizheng/desktop/computer\ graphics/CS3451/ext/tiny_gltf/TinyGltfLoader.cpp
+assignments/a8/CMakeFiles/a8.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o: assignments/a8/CMakeFiles/a8.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object assignments/a8/CMakeFiles/a8.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a8" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignments/a8/CMakeFiles/a8.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o -MF CMakeFiles/a8.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o.d -o CMakeFiles/a8.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o -c "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_gltf/TinyGltfLoader.cpp"
+
+assignments/a8/CMakeFiles/a8.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a8.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.i"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a8" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_gltf/TinyGltfLoader.cpp" > CMakeFiles/a8.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.i
+
+assignments/a8/CMakeFiles/a8.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a8.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.s"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a8" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_gltf/TinyGltfLoader.cpp" -o CMakeFiles/a8.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.s
+
 # Object files for target a8
 a8_OBJECTS = \
 "CMakeFiles/a8.dir/__/__/src/OpenGLBufferObjects.cpp.o" \
@@ -220,7 +248,9 @@ a8_OBJECTS = \
 "CMakeFiles/a8.dir/__/__/src/OpenGLWindow.cpp.o" \
 "CMakeFiles/a8.dir/__/__/src/glad.cpp.o" \
 "CMakeFiles/a8.dir/__/__/src/mikktspace.cpp.o" \
-"CMakeFiles/a8.dir/main.cpp.o"
+"CMakeFiles/a8.dir/main.cpp.o" \
+"CMakeFiles/a8.dir/__/__/ext/stb/StbImage.cpp.o" \
+"CMakeFiles/a8.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o"
 
 # External object files for target a8
 a8_EXTERNAL_OBJECTS =
@@ -235,9 +265,11 @@ assignments/a8/a8: assignments/a8/CMakeFiles/a8.dir/__/__/src/OpenGLWindow.cpp.o
 assignments/a8/a8: assignments/a8/CMakeFiles/a8.dir/__/__/src/glad.cpp.o
 assignments/a8/a8: assignments/a8/CMakeFiles/a8.dir/__/__/src/mikktspace.cpp.o
 assignments/a8/a8: assignments/a8/CMakeFiles/a8.dir/main.cpp.o
+assignments/a8/a8: assignments/a8/CMakeFiles/a8.dir/__/__/ext/stb/StbImage.cpp.o
+assignments/a8/a8: assignments/a8/CMakeFiles/a8.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o
 assignments/a8/a8: assignments/a8/CMakeFiles/a8.dir/build.make
 assignments/a8/a8: assignments/a8/CMakeFiles/a8.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable a8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable a8"
 	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a8" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/a8.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

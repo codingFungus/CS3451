@@ -175,6 +175,102 @@ a3/fast:
 	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f assignments/a3/CMakeFiles/a3.dir/build.make assignments/a3/CMakeFiles/a3.dir/build
 .PHONY : a3/fast
 
+__/__/ext/stb/StbImage.o: __/__/ext/stb/StbImage.cpp.o
+.PHONY : __/__/ext/stb/StbImage.o
+
+# target to build an object file
+__/__/ext/stb/StbImage.cpp.o:
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f assignments/a3/CMakeFiles/a3.dir/build.make assignments/a3/CMakeFiles/a3.dir/__/__/ext/stb/StbImage.cpp.o
+.PHONY : __/__/ext/stb/StbImage.cpp.o
+
+__/__/ext/stb/StbImage.i: __/__/ext/stb/StbImage.cpp.i
+.PHONY : __/__/ext/stb/StbImage.i
+
+# target to preprocess a source file
+__/__/ext/stb/StbImage.cpp.i:
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f assignments/a3/CMakeFiles/a3.dir/build.make assignments/a3/CMakeFiles/a3.dir/__/__/ext/stb/StbImage.cpp.i
+.PHONY : __/__/ext/stb/StbImage.cpp.i
+
+__/__/ext/stb/StbImage.s: __/__/ext/stb/StbImage.cpp.s
+.PHONY : __/__/ext/stb/StbImage.s
+
+# target to generate assembly for a file
+__/__/ext/stb/StbImage.cpp.s:
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f assignments/a3/CMakeFiles/a3.dir/build.make assignments/a3/CMakeFiles/a3.dir/__/__/ext/stb/StbImage.cpp.s
+.PHONY : __/__/ext/stb/StbImage.cpp.s
+
+__/__/ext/tiny_gltf/TinyGltfLoader.o: __/__/ext/tiny_gltf/TinyGltfLoader.cpp.o
+.PHONY : __/__/ext/tiny_gltf/TinyGltfLoader.o
+
+# target to build an object file
+__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o:
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f assignments/a3/CMakeFiles/a3.dir/build.make assignments/a3/CMakeFiles/a3.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o
+.PHONY : __/__/ext/tiny_gltf/TinyGltfLoader.cpp.o
+
+__/__/ext/tiny_gltf/TinyGltfLoader.i: __/__/ext/tiny_gltf/TinyGltfLoader.cpp.i
+.PHONY : __/__/ext/tiny_gltf/TinyGltfLoader.i
+
+# target to preprocess a source file
+__/__/ext/tiny_gltf/TinyGltfLoader.cpp.i:
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f assignments/a3/CMakeFiles/a3.dir/build.make assignments/a3/CMakeFiles/a3.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.i
+.PHONY : __/__/ext/tiny_gltf/TinyGltfLoader.cpp.i
+
+__/__/ext/tiny_gltf/TinyGltfLoader.s: __/__/ext/tiny_gltf/TinyGltfLoader.cpp.s
+.PHONY : __/__/ext/tiny_gltf/TinyGltfLoader.s
+
+# target to generate assembly for a file
+__/__/ext/tiny_gltf/TinyGltfLoader.cpp.s:
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f assignments/a3/CMakeFiles/a3.dir/build.make assignments/a3/CMakeFiles/a3.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.s
+.PHONY : __/__/ext/tiny_gltf/TinyGltfLoader.cpp.s
+
+__/__/ext/tiny_obj_loader/TinyObjLoader.o: __/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o
+.PHONY : __/__/ext/tiny_obj_loader/TinyObjLoader.o
+
+# target to build an object file
+__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o:
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f assignments/a3/CMakeFiles/a3.dir/build.make assignments/a3/CMakeFiles/a3.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o
+.PHONY : __/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o
+
+__/__/ext/tiny_obj_loader/TinyObjLoader.i: __/__/ext/tiny_obj_loader/TinyObjLoader.cpp.i
+.PHONY : __/__/ext/tiny_obj_loader/TinyObjLoader.i
+
+# target to preprocess a source file
+__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.i:
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f assignments/a3/CMakeFiles/a3.dir/build.make assignments/a3/CMakeFiles/a3.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.i
+.PHONY : __/__/ext/tiny_obj_loader/TinyObjLoader.cpp.i
+
+__/__/ext/tiny_obj_loader/TinyObjLoader.s: __/__/ext/tiny_obj_loader/TinyObjLoader.cpp.s
+.PHONY : __/__/ext/tiny_obj_loader/TinyObjLoader.s
+
+# target to generate assembly for a file
+__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.s:
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f assignments/a3/CMakeFiles/a3.dir/build.make assignments/a3/CMakeFiles/a3.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.s
+.PHONY : __/__/ext/tiny_obj_loader/TinyObjLoader.cpp.s
+
+__/__/ext/tiny_obj_loader/tiny_obj_loader.o: __/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o
+.PHONY : __/__/ext/tiny_obj_loader/tiny_obj_loader.o
+
+# target to build an object file
+__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o:
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f assignments/a3/CMakeFiles/a3.dir/build.make assignments/a3/CMakeFiles/a3.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o
+.PHONY : __/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o
+
+__/__/ext/tiny_obj_loader/tiny_obj_loader.i: __/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.i
+.PHONY : __/__/ext/tiny_obj_loader/tiny_obj_loader.i
+
+# target to preprocess a source file
+__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.i:
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f assignments/a3/CMakeFiles/a3.dir/build.make assignments/a3/CMakeFiles/a3.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.i
+.PHONY : __/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.i
+
+__/__/ext/tiny_obj_loader/tiny_obj_loader.s: __/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.s
+.PHONY : __/__/ext/tiny_obj_loader/tiny_obj_loader.s
+
+# target to generate assembly for a file
+__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.s:
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f assignments/a3/CMakeFiles/a3.dir/build.make assignments/a3/CMakeFiles/a3.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.s
+.PHONY : __/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.s
+
 __/__/src/OpenGLBufferObjects.o: __/__/src/OpenGLBufferObjects.cpp.o
 .PHONY : __/__/src/OpenGLBufferObjects.o
 
@@ -428,6 +524,18 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... a3"
+	@echo "... __/__/ext/stb/StbImage.o"
+	@echo "... __/__/ext/stb/StbImage.i"
+	@echo "... __/__/ext/stb/StbImage.s"
+	@echo "... __/__/ext/tiny_gltf/TinyGltfLoader.o"
+	@echo "... __/__/ext/tiny_gltf/TinyGltfLoader.i"
+	@echo "... __/__/ext/tiny_gltf/TinyGltfLoader.s"
+	@echo "... __/__/ext/tiny_obj_loader/TinyObjLoader.o"
+	@echo "... __/__/ext/tiny_obj_loader/TinyObjLoader.i"
+	@echo "... __/__/ext/tiny_obj_loader/TinyObjLoader.s"
+	@echo "... __/__/ext/tiny_obj_loader/tiny_obj_loader.o"
+	@echo "... __/__/ext/tiny_obj_loader/tiny_obj_loader.i"
+	@echo "... __/__/ext/tiny_obj_loader/tiny_obj_loader.s"
 	@echo "... __/__/src/OpenGLBufferObjects.o"
 	@echo "... __/__/src/OpenGLBufferObjects.i"
 	@echo "... __/__/src/OpenGLBufferObjects.s"

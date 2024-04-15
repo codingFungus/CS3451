@@ -209,6 +209,62 @@ assignments/a5/CMakeFiles/a5.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a5.dir/main.cpp.s"
 	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a5" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/assignments/a5/main.cpp" -o CMakeFiles/a5.dir/main.cpp.s
 
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o: assignments/a5/CMakeFiles/a5.dir/flags.make
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o: /Users/anqizheng/desktop/computer\ graphics/CS3451/ext/tiny_obj_loader/TinyObjLoader.cpp
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o: assignments/a5/CMakeFiles/a5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a5" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o -MF CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o.d -o CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o -c "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_obj_loader/TinyObjLoader.cpp"
+
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.i"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a5" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_obj_loader/TinyObjLoader.cpp" > CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.i
+
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.s"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a5" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_obj_loader/TinyObjLoader.cpp" -o CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.s
+
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o: assignments/a5/CMakeFiles/a5.dir/flags.make
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o: /Users/anqizheng/desktop/computer\ graphics/CS3451/ext/tiny_obj_loader/tiny_obj_loader.cpp
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o: assignments/a5/CMakeFiles/a5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a5" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o -MF CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o.d -o CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o -c "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_obj_loader/tiny_obj_loader.cpp"
+
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.i"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a5" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_obj_loader/tiny_obj_loader.cpp" > CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.i
+
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.s"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a5" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_obj_loader/tiny_obj_loader.cpp" -o CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.s
+
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/stb/StbImage.cpp.o: assignments/a5/CMakeFiles/a5.dir/flags.make
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/stb/StbImage.cpp.o: /Users/anqizheng/desktop/computer\ graphics/CS3451/ext/stb/StbImage.cpp
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/stb/StbImage.cpp.o: assignments/a5/CMakeFiles/a5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object assignments/a5/CMakeFiles/a5.dir/__/__/ext/stb/StbImage.cpp.o"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a5" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignments/a5/CMakeFiles/a5.dir/__/__/ext/stb/StbImage.cpp.o -MF CMakeFiles/a5.dir/__/__/ext/stb/StbImage.cpp.o.d -o CMakeFiles/a5.dir/__/__/ext/stb/StbImage.cpp.o -c "/Users/anqizheng/desktop/computer graphics/CS3451/ext/stb/StbImage.cpp"
+
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/stb/StbImage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a5.dir/__/__/ext/stb/StbImage.cpp.i"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a5" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anqizheng/desktop/computer graphics/CS3451/ext/stb/StbImage.cpp" > CMakeFiles/a5.dir/__/__/ext/stb/StbImage.cpp.i
+
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/stb/StbImage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a5.dir/__/__/ext/stb/StbImage.cpp.s"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a5" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/ext/stb/StbImage.cpp" -o CMakeFiles/a5.dir/__/__/ext/stb/StbImage.cpp.s
+
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o: assignments/a5/CMakeFiles/a5.dir/flags.make
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o: /Users/anqizheng/desktop/computer\ graphics/CS3451/ext/tiny_gltf/TinyGltfLoader.cpp
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o: assignments/a5/CMakeFiles/a5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a5" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o -MF CMakeFiles/a5.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o.d -o CMakeFiles/a5.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o -c "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_gltf/TinyGltfLoader.cpp"
+
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/a5.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.i"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a5" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_gltf/TinyGltfLoader.cpp" > CMakeFiles/a5.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.i
+
+assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/a5.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.s"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a5" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_gltf/TinyGltfLoader.cpp" -o CMakeFiles/a5.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.s
+
 # Object files for target a5
 a5_OBJECTS = \
 "CMakeFiles/a5.dir/__/__/src/OpenGLBufferObjects.cpp.o" \
@@ -220,7 +276,11 @@ a5_OBJECTS = \
 "CMakeFiles/a5.dir/__/__/src/OpenGLWindow.cpp.o" \
 "CMakeFiles/a5.dir/__/__/src/glad.cpp.o" \
 "CMakeFiles/a5.dir/__/__/src/mikktspace.cpp.o" \
-"CMakeFiles/a5.dir/main.cpp.o"
+"CMakeFiles/a5.dir/main.cpp.o" \
+"CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o" \
+"CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o" \
+"CMakeFiles/a5.dir/__/__/ext/stb/StbImage.cpp.o" \
+"CMakeFiles/a5.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o"
 
 # External object files for target a5
 a5_EXTERNAL_OBJECTS =
@@ -235,9 +295,13 @@ assignments/a5/a5: assignments/a5/CMakeFiles/a5.dir/__/__/src/OpenGLWindow.cpp.o
 assignments/a5/a5: assignments/a5/CMakeFiles/a5.dir/__/__/src/glad.cpp.o
 assignments/a5/a5: assignments/a5/CMakeFiles/a5.dir/__/__/src/mikktspace.cpp.o
 assignments/a5/a5: assignments/a5/CMakeFiles/a5.dir/main.cpp.o
+assignments/a5/a5: assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o
+assignments/a5/a5: assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o
+assignments/a5/a5: assignments/a5/CMakeFiles/a5.dir/__/__/ext/stb/StbImage.cpp.o
+assignments/a5/a5: assignments/a5/CMakeFiles/a5.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o
 assignments/a5/a5: assignments/a5/CMakeFiles/a5.dir/build.make
 assignments/a5/a5: assignments/a5/CMakeFiles/a5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable a5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable a5"
 	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a5" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/a5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

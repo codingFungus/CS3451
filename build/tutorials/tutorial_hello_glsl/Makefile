@@ -175,6 +175,54 @@ tutorial_hello_glsl/fast:
 	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/build.make tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/build
 .PHONY : tutorial_hello_glsl/fast
 
+__/__/ext/stb/StbImage.o: __/__/ext/stb/StbImage.cpp.o
+.PHONY : __/__/ext/stb/StbImage.o
+
+# target to build an object file
+__/__/ext/stb/StbImage.cpp.o:
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/build.make tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/__/__/ext/stb/StbImage.cpp.o
+.PHONY : __/__/ext/stb/StbImage.cpp.o
+
+__/__/ext/stb/StbImage.i: __/__/ext/stb/StbImage.cpp.i
+.PHONY : __/__/ext/stb/StbImage.i
+
+# target to preprocess a source file
+__/__/ext/stb/StbImage.cpp.i:
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/build.make tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/__/__/ext/stb/StbImage.cpp.i
+.PHONY : __/__/ext/stb/StbImage.cpp.i
+
+__/__/ext/stb/StbImage.s: __/__/ext/stb/StbImage.cpp.s
+.PHONY : __/__/ext/stb/StbImage.s
+
+# target to generate assembly for a file
+__/__/ext/stb/StbImage.cpp.s:
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/build.make tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/__/__/ext/stb/StbImage.cpp.s
+.PHONY : __/__/ext/stb/StbImage.cpp.s
+
+__/__/ext/tiny_gltf/TinyGltfLoader.o: __/__/ext/tiny_gltf/TinyGltfLoader.cpp.o
+.PHONY : __/__/ext/tiny_gltf/TinyGltfLoader.o
+
+# target to build an object file
+__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o:
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/build.make tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o
+.PHONY : __/__/ext/tiny_gltf/TinyGltfLoader.cpp.o
+
+__/__/ext/tiny_gltf/TinyGltfLoader.i: __/__/ext/tiny_gltf/TinyGltfLoader.cpp.i
+.PHONY : __/__/ext/tiny_gltf/TinyGltfLoader.i
+
+# target to preprocess a source file
+__/__/ext/tiny_gltf/TinyGltfLoader.cpp.i:
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/build.make tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.i
+.PHONY : __/__/ext/tiny_gltf/TinyGltfLoader.cpp.i
+
+__/__/ext/tiny_gltf/TinyGltfLoader.s: __/__/ext/tiny_gltf/TinyGltfLoader.cpp.s
+.PHONY : __/__/ext/tiny_gltf/TinyGltfLoader.s
+
+# target to generate assembly for a file
+__/__/ext/tiny_gltf/TinyGltfLoader.cpp.s:
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/build.make tutorials/tutorial_hello_glsl/CMakeFiles/tutorial_hello_glsl.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.s
+.PHONY : __/__/ext/tiny_gltf/TinyGltfLoader.cpp.s
+
 __/__/src/OpenGLBufferObjects.o: __/__/src/OpenGLBufferObjects.cpp.o
 .PHONY : __/__/src/OpenGLBufferObjects.o
 
@@ -428,6 +476,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... tutorial_hello_glsl"
+	@echo "... __/__/ext/stb/StbImage.o"
+	@echo "... __/__/ext/stb/StbImage.i"
+	@echo "... __/__/ext/stb/StbImage.s"
+	@echo "... __/__/ext/tiny_gltf/TinyGltfLoader.o"
+	@echo "... __/__/ext/tiny_gltf/TinyGltfLoader.i"
+	@echo "... __/__/ext/tiny_gltf/TinyGltfLoader.s"
 	@echo "... __/__/src/OpenGLBufferObjects.o"
 	@echo "... __/__/src/OpenGLBufferObjects.i"
 	@echo "... __/__/src/OpenGLBufferObjects.s"

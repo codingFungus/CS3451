@@ -1,4 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tutorial_lighting.dir/__/__/ext/stb/StbImage.cpp.o"
+  "CMakeFiles/tutorial_lighting.dir/__/__/ext/stb/StbImage.cpp.o.d"
+  "CMakeFiles/tutorial_lighting.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o"
+  "CMakeFiles/tutorial_lighting.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o.d"
+  "CMakeFiles/tutorial_lighting.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o"
+  "CMakeFiles/tutorial_lighting.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o.d"
+  "CMakeFiles/tutorial_lighting.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o"
+  "CMakeFiles/tutorial_lighting.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o.d"
   "CMakeFiles/tutorial_lighting.dir/__/__/src/OpenGLBufferObjects.cpp.o"
   "CMakeFiles/tutorial_lighting.dir/__/__/src/OpenGLBufferObjects.cpp.o.d"
   "CMakeFiles/tutorial_lighting.dir/__/__/src/OpenGLMarkerObjects.cpp.o"

@@ -209,6 +209,34 @@ tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tutorial_cpp101.dir/main.cpp.s"
 	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_cpp101" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_cpp101/main.cpp" -o CMakeFiles/tutorial_cpp101.dir/main.cpp.s
 
+tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/__/__/ext/stb/StbImage.cpp.o: tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/flags.make
+tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/__/__/ext/stb/StbImage.cpp.o: /Users/anqizheng/desktop/computer\ graphics/CS3451/ext/stb/StbImage.cpp
+tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/__/__/ext/stb/StbImage.cpp.o: tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/__/__/ext/stb/StbImage.cpp.o"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_cpp101" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/__/__/ext/stb/StbImage.cpp.o -MF CMakeFiles/tutorial_cpp101.dir/__/__/ext/stb/StbImage.cpp.o.d -o CMakeFiles/tutorial_cpp101.dir/__/__/ext/stb/StbImage.cpp.o -c "/Users/anqizheng/desktop/computer graphics/CS3451/ext/stb/StbImage.cpp"
+
+tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/__/__/ext/stb/StbImage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tutorial_cpp101.dir/__/__/ext/stb/StbImage.cpp.i"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_cpp101" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anqizheng/desktop/computer graphics/CS3451/ext/stb/StbImage.cpp" > CMakeFiles/tutorial_cpp101.dir/__/__/ext/stb/StbImage.cpp.i
+
+tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/__/__/ext/stb/StbImage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tutorial_cpp101.dir/__/__/ext/stb/StbImage.cpp.s"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_cpp101" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/ext/stb/StbImage.cpp" -o CMakeFiles/tutorial_cpp101.dir/__/__/ext/stb/StbImage.cpp.s
+
+tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o: tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/flags.make
+tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o: /Users/anqizheng/desktop/computer\ graphics/CS3451/ext/tiny_gltf/TinyGltfLoader.cpp
+tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o: tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_cpp101" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o -MF CMakeFiles/tutorial_cpp101.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o.d -o CMakeFiles/tutorial_cpp101.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o -c "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_gltf/TinyGltfLoader.cpp"
+
+tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tutorial_cpp101.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.i"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_cpp101" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_gltf/TinyGltfLoader.cpp" > CMakeFiles/tutorial_cpp101.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.i
+
+tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tutorial_cpp101.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.s"
+	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_cpp101" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_gltf/TinyGltfLoader.cpp" -o CMakeFiles/tutorial_cpp101.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.s
+
 # Object files for target tutorial_cpp101
 tutorial_cpp101_OBJECTS = \
 "CMakeFiles/tutorial_cpp101.dir/__/__/src/OpenGLBufferObjects.cpp.o" \
@@ -220,7 +248,9 @@ tutorial_cpp101_OBJECTS = \
 "CMakeFiles/tutorial_cpp101.dir/__/__/src/OpenGLWindow.cpp.o" \
 "CMakeFiles/tutorial_cpp101.dir/__/__/src/glad.cpp.o" \
 "CMakeFiles/tutorial_cpp101.dir/__/__/src/mikktspace.cpp.o" \
-"CMakeFiles/tutorial_cpp101.dir/main.cpp.o"
+"CMakeFiles/tutorial_cpp101.dir/main.cpp.o" \
+"CMakeFiles/tutorial_cpp101.dir/__/__/ext/stb/StbImage.cpp.o" \
+"CMakeFiles/tutorial_cpp101.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o"
 
 # External object files for target tutorial_cpp101
 tutorial_cpp101_EXTERNAL_OBJECTS =
@@ -235,9 +265,11 @@ tutorials/tutorial_cpp101/tutorial_cpp101: tutorials/tutorial_cpp101/CMakeFiles/
 tutorials/tutorial_cpp101/tutorial_cpp101: tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/__/__/src/glad.cpp.o
 tutorials/tutorial_cpp101/tutorial_cpp101: tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/__/__/src/mikktspace.cpp.o
 tutorials/tutorial_cpp101/tutorial_cpp101: tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/main.cpp.o
+tutorials/tutorial_cpp101/tutorial_cpp101: tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/__/__/ext/stb/StbImage.cpp.o
+tutorials/tutorial_cpp101/tutorial_cpp101: tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o
 tutorials/tutorial_cpp101/tutorial_cpp101: tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/build.make
 tutorials/tutorial_cpp101/tutorial_cpp101: tutorials/tutorial_cpp101/CMakeFiles/tutorial_cpp101.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable tutorial_cpp101"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable tutorial_cpp101"
 	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_cpp101" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tutorial_cpp101.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

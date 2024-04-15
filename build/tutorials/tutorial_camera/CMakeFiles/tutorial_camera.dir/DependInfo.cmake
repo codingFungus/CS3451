@@ -8,6 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/anqizheng/desktop/computer graphics/CS3451/ext/stb/StbImage.cpp" "tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/__/__/ext/stb/StbImage.cpp.o" "gcc" "tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/__/__/ext/stb/StbImage.cpp.o.d"
+  "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_gltf/TinyGltfLoader.cpp" "tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o" "gcc" "tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/__/__/ext/tiny_gltf/TinyGltfLoader.cpp.o.d"
+  "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_obj_loader/TinyObjLoader.cpp" "tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o" "gcc" "tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/__/__/ext/tiny_obj_loader/TinyObjLoader.cpp.o.d"
+  "/Users/anqizheng/desktop/computer graphics/CS3451/ext/tiny_obj_loader/tiny_obj_loader.cpp" "tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o" "gcc" "tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/__/__/ext/tiny_obj_loader/tiny_obj_loader.cpp.o.d"
   "/Users/anqizheng/desktop/computer graphics/CS3451/src/OpenGLBufferObjects.cpp" "tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/__/__/src/OpenGLBufferObjects.cpp.o" "gcc" "tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/__/__/src/OpenGLBufferObjects.cpp.o.d"
   "/Users/anqizheng/desktop/computer graphics/CS3451/src/OpenGLMarkerObjects.cpp" "tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/__/__/src/OpenGLMarkerObjects.cpp.o" "gcc" "tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/__/__/src/OpenGLMarkerObjects.cpp.o.d"
   "/Users/anqizheng/desktop/computer graphics/CS3451/src/OpenGLObject.cpp" "tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/__/__/src/OpenGLObject.cpp.o" "gcc" "tutorials/tutorial_camera/CMakeFiles/tutorial_camera.dir/__/__/src/OpenGLObject.cpp.o.d"
