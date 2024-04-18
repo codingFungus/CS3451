@@ -18,10 +18,10 @@ out vec4 outputColor;           /* output color */
 
 #define PI 3.14159265359
 #define TWO_PI 6.28318530718
-#define Gravity 0.7             /* gravity */
-#define NUM_STAR 30.            /* number of stars on the sky */
-#define NUM_EMISSION 30.        /* number of emission particles */
-#define NUM_FIREWORKS 5         /* number of fireworks */
+#define Gravity 0.9             /* gravity */
+#define NUM_STAR 35.            /* number of stars on the sky */
+#define NUM_EMISSION 40.        /* number of emission particles */
+#define NUM_FIREWORKS 6         /* number of fireworks */
 #define DURATION 3.             /* duration of each fireworks period */
 
 const vec2 g = vec2(.0, -Gravity); /* gravity */
@@ -119,8 +119,6 @@ vec3 renderStars(vec2 fragPos)
         // Render each star and accumulate the results
         fragColor += renderParticle(fragPos, pos, brightness, color);
         
-
-        
         /* your implementation ends */
     }
 
@@ -201,7 +199,7 @@ vec3 simSingleFirework(vec2 fragPos, vec2 launchPos, vec2 launchVel, float t, ve
         vec2 emitPos = moveParticle(launchPos, launchVel, emitTime);
 
         for(float i = 0.; i < NUM_EMISSION; i++){
-            vec2 emitVel = hash2d_polar(i) * .7; // random direction with max magnitude 0.7
+            vec2 emitVel = hash2d_polar(i) * .9;
 
             /* your implementation starts */
             float brightness = .002 * (1.0 - emitT / DURATION);
@@ -225,9 +223,9 @@ vec3 renderFireworks(vec2 fragPos)
         float t = mod(relTime, DURATION);
         float idx = floor(relTime / DURATION);
 
-        vec2 launchPos = vec2((hash1d(idx) * 2. - 1.) * 0.7, -0.5);
-        vec2 launchVel = vec2(-launchPos.x * 0.66, hash1d(lauchTime + 1.) * 0.3 + .9);
-        vec3 color = sin(40. * hash3d(lauchTime) * idx) * 0.25 + 0.75;
+        vec2 launchPos = vec2((hash1d(idx) * 1.5 - 1.) * 0.8, -0.5);
+        vec2 launchVel = vec2(-launchPos.x * 0.66, hash1d(lauchTime + 1.5) * 0.3 + .9);
+        vec3 color = sin(45. * hash3d(lauchTime) * idx) * 0.4 + 0.6;
 
         fragColor += simSingleFirework(fragPos, launchPos, launchVel, t, color);
     }
