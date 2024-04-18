@@ -1,4 +1,4 @@
-# Install script for directory: /Users/anqizheng/desktop/computer graphics/CS3451/assignments/a5
+# Install script for directory: /Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/assignments/a5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -4,7 +4,7 @@
 # compile C with /Library/Developer/CommandLineTools/usr/bin/cc
 C_DEFINES = -DGLM_ENABLE_EXPERIMENTAL -DUSE_STB -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I"/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/include" -I"/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/src" -I"/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3/src"
+C_INCLUDES = -I"/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/include" -I"/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/src" -I"/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3/src"
 
 C_FLAGSarm64 =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fPIC   -w -Wall
 

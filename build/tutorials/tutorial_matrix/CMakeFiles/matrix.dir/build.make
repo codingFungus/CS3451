@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/anqizheng/desktop/computer graphics/CS3451"
+CMAKE_SOURCE_DIR = "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/anqizheng/desktop/computer graphics/CS3451/build"
+CMAKE_BINARY_DIR = "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build"
 
 # Include any dependencies generated for this target.
 include tutorials/tutorial_matrix/CMakeFiles/matrix.dir/depend.make
@@ -70,18 +70,18 @@ include tutorials/tutorial_matrix/CMakeFiles/matrix.dir/progress.make
 include tutorials/tutorial_matrix/CMakeFiles/matrix.dir/flags.make
 
 tutorials/tutorial_matrix/CMakeFiles/matrix.dir/main.cpp.o: tutorials/tutorial_matrix/CMakeFiles/matrix.dir/flags.make
-tutorials/tutorial_matrix/CMakeFiles/matrix.dir/main.cpp.o: /Users/anqizheng/desktop/computer\ graphics/CS3451/tutorials/tutorial_matrix/main.cpp
+tutorials/tutorial_matrix/CMakeFiles/matrix.dir/main.cpp.o: /Users/anqizheng/Desktop/computer\ graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_matrix/main.cpp
 tutorials/tutorial_matrix/CMakeFiles/matrix.dir/main.cpp.o: tutorials/tutorial_matrix/CMakeFiles/matrix.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tutorials/tutorial_matrix/CMakeFiles/matrix.dir/main.cpp.o"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_matrix" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tutorials/tutorial_matrix/CMakeFiles/matrix.dir/main.cpp.o -MF CMakeFiles/matrix.dir/main.cpp.o.d -o CMakeFiles/matrix.dir/main.cpp.o -c "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_matrix/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tutorials/tutorial_matrix/CMakeFiles/matrix.dir/main.cpp.o"
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_matrix" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tutorials/tutorial_matrix/CMakeFiles/matrix.dir/main.cpp.o -MF CMakeFiles/matrix.dir/main.cpp.o.d -o CMakeFiles/matrix.dir/main.cpp.o -c "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_matrix/main.cpp"
 
 tutorials/tutorial_matrix/CMakeFiles/matrix.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/matrix.dir/main.cpp.i"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_matrix" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_matrix/main.cpp" > CMakeFiles/matrix.dir/main.cpp.i
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_matrix" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_matrix/main.cpp" > CMakeFiles/matrix.dir/main.cpp.i
 
 tutorials/tutorial_matrix/CMakeFiles/matrix.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/matrix.dir/main.cpp.s"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_matrix" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_matrix/main.cpp" -o CMakeFiles/matrix.dir/main.cpp.s
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_matrix" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_matrix/main.cpp" -o CMakeFiles/matrix.dir/main.cpp.s
 
 # Object files for target matrix
 matrix_OBJECTS = \
@@ -93,18 +93,18 @@ matrix_EXTERNAL_OBJECTS =
 tutorials/tutorial_matrix/matrix: tutorials/tutorial_matrix/CMakeFiles/matrix.dir/main.cpp.o
 tutorials/tutorial_matrix/matrix: tutorials/tutorial_matrix/CMakeFiles/matrix.dir/build.make
 tutorials/tutorial_matrix/matrix: tutorials/tutorial_matrix/CMakeFiles/matrix.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable matrix"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_matrix" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/matrix.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable matrix"
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_matrix" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/matrix.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tutorials/tutorial_matrix/CMakeFiles/matrix.dir/build: tutorials/tutorial_matrix/matrix
 .PHONY : tutorials/tutorial_matrix/CMakeFiles/matrix.dir/build
 
 tutorials/tutorial_matrix/CMakeFiles/matrix.dir/clean:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_matrix" && $(CMAKE_COMMAND) -P CMakeFiles/matrix.dir/cmake_clean.cmake
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_matrix" && $(CMAKE_COMMAND) -P CMakeFiles/matrix.dir/cmake_clean.cmake
 .PHONY : tutorials/tutorial_matrix/CMakeFiles/matrix.dir/clean
 
 tutorials/tutorial_matrix/CMakeFiles/matrix.dir/depend:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/anqizheng/desktop/computer graphics/CS3451" "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_matrix" "/Users/anqizheng/desktop/computer graphics/CS3451/build" "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_matrix" "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_matrix/CMakeFiles/matrix.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_matrix" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_matrix" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_matrix/CMakeFiles/matrix.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : tutorials/tutorial_matrix/CMakeFiles/matrix.dir/depend
 

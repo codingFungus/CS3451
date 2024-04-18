@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/anqizheng/desktop/computer graphics/CS3451"
+CMAKE_SOURCE_DIR = "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/anqizheng/desktop/computer graphics/CS3451/build"
+CMAKE_BINARY_DIR = "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build"
 
 # Include any dependencies generated for this target.
 include tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/depend.make
@@ -69,37 +69,37 @@ include tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/progr
 # Include the compile flags for this target's objects.
 include tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/flags.make
 
-tutorials/tutorial_opengl/glfw-3.3/examples/sharing.app/Contents/Resources/glfw.icns: /Users/anqizheng/desktop/computer\ graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/examples/glfw.icns
+tutorials/tutorial_opengl/glfw-3.3/examples/sharing.app/Contents/Resources/glfw.icns: /Users/anqizheng/Desktop/computer\ graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/examples/glfw.icns
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Copying OS X content tutorials/tutorial_opengl/glfw-3.3/examples/sharing.app/Contents/Resources/glfw.icns"
-	$(CMAKE_COMMAND) -E copy "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/examples/glfw.icns" tutorials/tutorial_opengl/glfw-3.3/examples/sharing.app/Contents/Resources/glfw.icns
+	$(CMAKE_COMMAND) -E copy "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/examples/glfw.icns" tutorials/tutorial_opengl/glfw-3.3/examples/sharing.app/Contents/Resources/glfw.icns
 
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/sharing.c.o: tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/flags.make
-tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/sharing.c.o: /Users/anqizheng/desktop/computer\ graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/examples/sharing.c
+tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/sharing.c.o: /Users/anqizheng/Desktop/computer\ graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/examples/sharing.c
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/sharing.c.o: tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/sharing.c.o"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/sharing.c.o -MF CMakeFiles/sharing.dir/sharing.c.o.d -o CMakeFiles/sharing.dir/sharing.c.o -c "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/examples/sharing.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/sharing.c.o"
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/sharing.c.o -MF CMakeFiles/sharing.dir/sharing.c.o.d -o CMakeFiles/sharing.dir/sharing.c.o -c "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/examples/sharing.c"
 
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/sharing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sharing.dir/sharing.c.i"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/examples/sharing.c" > CMakeFiles/sharing.dir/sharing.c.i
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/examples/sharing.c" > CMakeFiles/sharing.dir/sharing.c.i
 
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/sharing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sharing.dir/sharing.c.s"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/examples/sharing.c" -o CMakeFiles/sharing.dir/sharing.c.s
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/examples/sharing.c" -o CMakeFiles/sharing.dir/sharing.c.s
 
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.o: tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/flags.make
-tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.o: /Users/anqizheng/desktop/computer\ graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c
+tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.o: /Users/anqizheng/Desktop/computer\ graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.o: tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.o"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.o -MF CMakeFiles/sharing.dir/__/deps/glad_gl.c.o.d -o CMakeFiles/sharing.dir/__/deps/glad_gl.c.o -c "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.o"
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.o -MF CMakeFiles/sharing.dir/__/deps/glad_gl.c.o.d -o CMakeFiles/sharing.dir/__/deps/glad_gl.c.o -c "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c"
 
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sharing.dir/__/deps/glad_gl.c.i"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c" > CMakeFiles/sharing.dir/__/deps/glad_gl.c.i
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c" > CMakeFiles/sharing.dir/__/deps/glad_gl.c.i
 
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sharing.dir/__/deps/glad_gl.c.s"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c" -o CMakeFiles/sharing.dir/__/deps/glad_gl.c.s
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3/examples" && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c" -o CMakeFiles/sharing.dir/__/deps/glad_gl.c.s
 
 # Object files for target sharing
 sharing_OBJECTS = \
@@ -114,8 +114,8 @@ tutorials/tutorial_opengl/glfw-3.3/examples/sharing.app/Contents/MacOS/sharing: 
 tutorials/tutorial_opengl/glfw-3.3/examples/sharing.app/Contents/MacOS/sharing: tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/build.make
 tutorials/tutorial_opengl/glfw-3.3/examples/sharing.app/Contents/MacOS/sharing: tutorials/tutorial_opengl/glfw-3.3/src/libglfw3.a
 tutorials/tutorial_opengl/glfw-3.3/examples/sharing.app/Contents/MacOS/sharing: tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable sharing.app/Contents/MacOS/sharing"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3/examples" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharing.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable sharing.app/Contents/MacOS/sharing"
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3/examples" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharing.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/build: tutorials/tutorial_opengl/glfw-3.3/examples/sharing.app/Contents/MacOS/sharing
@@ -123,10 +123,10 @@ tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/build: tutori
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/build
 
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/clean:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3/examples" && $(CMAKE_COMMAND) -P CMakeFiles/sharing.dir/cmake_clean.cmake
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3/examples" && $(CMAKE_COMMAND) -P CMakeFiles/sharing.dir/cmake_clean.cmake
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/clean
 
 tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/depend:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/anqizheng/desktop/computer graphics/CS3451" "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/examples" "/Users/anqizheng/desktop/computer graphics/CS3451/build" "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3/examples" "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/examples" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3/examples" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/sharing.dir/depend
 

@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/anqizheng/desktop/computer graphics/CS3451"
+CMAKE_SOURCE_DIR = "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/anqizheng/desktop/computer graphics/CS3451/build"
+CMAKE_BINARY_DIR = "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3//CMakeFiles/progress.marks"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" 0
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/CMakeFiles" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3//CMakeFiles/progress.marks"
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/clean
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/preinstall
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/preinstall
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/rule:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/rule
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/rule
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ uninstall: tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/rule
 
 # fast build rule for target.
 uninstall/fast:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/build.make tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/build
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/build.make tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 # Help Target
@@ -199,6 +199,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

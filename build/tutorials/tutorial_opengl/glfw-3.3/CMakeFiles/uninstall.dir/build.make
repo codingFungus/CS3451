@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/anqizheng/desktop/computer graphics/CS3451"
+CMAKE_SOURCE_DIR = "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/anqizheng/desktop/computer graphics/CS3451/build"
+CMAKE_BINARY_DIR = "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build"
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/compiler_dep
 include tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/progress.make
 
 tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3" && /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -P /Users/anqizheng/desktop/computer\ graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3/cmake_uninstall.cmake
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3" && /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -P /Users/anqizheng/Desktop/computer\ graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3/cmake_uninstall.cmake
 
 uninstall: tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall
 uninstall: tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/build.make
@@ -78,10 +78,10 @@ tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/build
 
 tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/clean:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3" && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3" && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/clean
 
 tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/depend:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/anqizheng/desktop/computer graphics/CS3451" "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3" "/Users/anqizheng/desktop/computer graphics/CS3451/build" "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3" "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : tutorials/tutorial_opengl/glfw-3.3/CMakeFiles/uninstall.dir/depend
 

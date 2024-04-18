@@ -1,4 +1,4 @@
-# Install script for directory: /Users/anqizheng/desktop/computer graphics/CS3451
+# Install script for directory: /Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/cmake_install.cmake")
-  include("/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/cmake_install.cmake")
+  include("/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/assignments/cmake_install.cmake")
+  include("/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/anqizheng/desktop/computer graphics/CS3451/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

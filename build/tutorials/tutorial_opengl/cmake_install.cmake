@@ -1,4 +1,4 @@
-# Install script for directory: /Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl
+# Install script for directory: /Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3/cmake_install.cmake")
+  include("/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3/cmake_install.cmake")
 
 endif()
 

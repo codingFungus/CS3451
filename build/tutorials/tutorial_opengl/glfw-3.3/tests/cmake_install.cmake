@@ -1,4 +1,4 @@
-# Install script for directory: /Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/tests
+# Install script for directory: /Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/deps/getopt.c" "tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o" "gcc" "tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o.d"
-  "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c" "tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.o" "gcc" "tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.o.d"
-  "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/deps/tinycthread.c" "tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o" "gcc" "tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o.d"
-  "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/examples/particles.c" "tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/particles.c.o" "gcc" "tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/particles.c.o.d"
+  "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/deps/getopt.c" "tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o" "gcc" "tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/__/deps/getopt.c.o.d"
+  "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c" "tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.o" "gcc" "tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.o.d"
+  "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/deps/tinycthread.c" "tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o" "gcc" "tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.o.d"
+  "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/examples/particles.c" "tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/particles.c.o" "gcc" "tutorials/tutorial_opengl/glfw-3.3/examples/CMakeFiles/particles.dir/particles.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

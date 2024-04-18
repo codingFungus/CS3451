@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3/install_manifest.txt\"")
+if (NOT EXISTS "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3/install_manifest.txt\"")
 endif()
 
-file(READ "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/glfw-3.3/install_manifest.txt" files)
+file(READ "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/glfw-3.3/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

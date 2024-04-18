@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c" "tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.o" "gcc" "tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.o.d"
-  "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glfw-3.3/tests/icon.c" "tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/icon.dir/icon.c.o" "gcc" "tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/icon.dir/icon.c.o.d"
+  "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/deps/glad_gl.c" "tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.o" "gcc" "tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.o.d"
+  "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glfw-3.3/tests/icon.c" "tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/icon.dir/icon.c.o" "gcc" "tutorials/tutorial_opengl/glfw-3.3/tests/CMakeFiles/icon.dir/icon.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

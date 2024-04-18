@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/anqizheng/desktop/computer graphics/CS3451"
+CMAKE_SOURCE_DIR = "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/anqizheng/desktop/computer graphics/CS3451/build"
+CMAKE_BINARY_DIR = "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" "/Users/anqizheng/desktop/computer graphics/CS3451/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/CMakeFiles" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -264,6 +264,19 @@ a8: cmake_check_build_system
 a8/fast:
 	$(MAKE) $(MAKESILENT) -f assignments/a8/CMakeFiles/a8.dir/build.make assignments/a8/CMakeFiles/a8.dir/build
 .PHONY : a8/fast
+
+#=============================================================================
+# Target rules for targets named a9
+
+# Build rule for target.
+a9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 a9
+.PHONY : a9
+
+# fast build rule for target.
+a9/fast:
+	$(MAKE) $(MAKESILENT) -f assignments/a9/CMakeFiles/a9.dir/build.make assignments/a9/CMakeFiles/a9.dir/build
+.PHONY : a9/fast
 
 #=============================================================================
 # Target rules for targets named tutorial_camera
@@ -819,6 +832,7 @@ help:
 	@echo "... a6"
 	@echo "... a7"
 	@echo "... a8"
+	@echo "... a9"
 	@echo "... boing"
 	@echo "... clipboard"
 	@echo "... cursor"

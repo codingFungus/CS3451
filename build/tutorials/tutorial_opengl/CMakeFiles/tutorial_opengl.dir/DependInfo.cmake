@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glad/glad.cpp" "tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o" "gcc" "tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o.d"
-  "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/main.cpp" "tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.o" "gcc" "tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.o.d"
+  "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glad/glad.cpp" "tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o" "gcc" "tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o.d"
+  "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/main.cpp" "tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.o" "gcc" "tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

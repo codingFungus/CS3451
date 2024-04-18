@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/anqizheng/desktop/computer graphics/CS3451"
+CMAKE_SOURCE_DIR = "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/anqizheng/desktop/computer graphics/CS3451/build"
+CMAKE_BINARY_DIR = "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl//CMakeFiles/progress.marks"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" 0
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/CMakeFiles" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl//CMakeFiles/progress.marks"
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/clean
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/preinstall
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/preinstall
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/rule:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/rule
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/rule
 .PHONY : tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ tutorial_opengl: tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/rule
 
 # fast build rule for target.
 tutorial_opengl/fast:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build.make tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build.make tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build
 .PHONY : tutorial_opengl/fast
 
 glad/glad.o: glad/glad.cpp.o
@@ -180,7 +180,7 @@ glad/glad.o: glad/glad.cpp.o
 
 # target to build an object file
 glad/glad.cpp.o:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build.make tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build.make tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o
 .PHONY : glad/glad.cpp.o
 
 glad/glad.i: glad/glad.cpp.i
@@ -188,7 +188,7 @@ glad/glad.i: glad/glad.cpp.i
 
 # target to preprocess a source file
 glad/glad.cpp.i:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build.make tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.i
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build.make tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.i
 .PHONY : glad/glad.cpp.i
 
 glad/glad.s: glad/glad.cpp.s
@@ -196,7 +196,7 @@ glad/glad.s: glad/glad.cpp.s
 
 # target to generate assembly for a file
 glad/glad.cpp.s:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build.make tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.s
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build.make tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.s
 .PHONY : glad/glad.cpp.s
 
 main.o: main.cpp.o
@@ -204,7 +204,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build.make tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.o
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build.make tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -212,7 +212,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build.make tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.i
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build.make tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -220,7 +220,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build.make tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.s
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(MAKE) $(MAKESILENT) -f tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build.make tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -253,6 +253,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

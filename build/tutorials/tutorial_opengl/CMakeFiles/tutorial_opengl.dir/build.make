@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/anqizheng/desktop/computer graphics/CS3451"
+CMAKE_SOURCE_DIR = "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/anqizheng/desktop/computer graphics/CS3451/build"
+CMAKE_BINARY_DIR = "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build"
 
 # Include any dependencies generated for this target.
 include tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/depend.make
@@ -70,32 +70,32 @@ include tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/progress.make
 include tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/flags.make
 
 tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.o: tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/flags.make
-tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.o: /Users/anqizheng/desktop/computer\ graphics/CS3451/tutorials/tutorial_opengl/main.cpp
+tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.o: /Users/anqizheng/Desktop/computer\ graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/main.cpp
 tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.o: tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.o"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.o -MF CMakeFiles/tutorial_opengl.dir/main.cpp.o.d -o CMakeFiles/tutorial_opengl.dir/main.cpp.o -c "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.o"
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.o -MF CMakeFiles/tutorial_opengl.dir/main.cpp.o.d -o CMakeFiles/tutorial_opengl.dir/main.cpp.o -c "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/main.cpp"
 
 tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tutorial_opengl.dir/main.cpp.i"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/main.cpp" > CMakeFiles/tutorial_opengl.dir/main.cpp.i
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/main.cpp" > CMakeFiles/tutorial_opengl.dir/main.cpp.i
 
 tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tutorial_opengl.dir/main.cpp.s"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/main.cpp" -o CMakeFiles/tutorial_opengl.dir/main.cpp.s
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/main.cpp" -o CMakeFiles/tutorial_opengl.dir/main.cpp.s
 
 tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o: tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/flags.make
-tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o: /Users/anqizheng/desktop/computer\ graphics/CS3451/tutorials/tutorial_opengl/glad/glad.cpp
+tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o: /Users/anqizheng/Desktop/computer\ graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glad/glad.cpp
 tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o: tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o -MF CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o.d -o CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o -c "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glad/glad.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o"
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o -MF CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o.d -o CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.o -c "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glad/glad.cpp"
 
 tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.i"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glad/glad.cpp" > CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.i
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glad/glad.cpp" > CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.i
 
 tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.s"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl/glad/glad.cpp" -o CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.s
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl/glad/glad.cpp" -o CMakeFiles/tutorial_opengl.dir/glad/glad.cpp.s
 
 # Object files for target tutorial_opengl
 tutorial_opengl_OBJECTS = \
@@ -110,18 +110,18 @@ tutorials/tutorial_opengl/tutorial_opengl: tutorials/tutorial_opengl/CMakeFiles/
 tutorials/tutorial_opengl/tutorial_opengl: tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build.make
 tutorials/tutorial_opengl/tutorial_opengl: tutorials/tutorial_opengl/glfw-3.3/src/libglfw3.a
 tutorials/tutorial_opengl/tutorial_opengl: tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/anqizheng/desktop/computer graphics/CS3451/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable tutorial_opengl"
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tutorial_opengl.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable tutorial_opengl"
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tutorial_opengl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build: tutorials/tutorial_opengl/tutorial_opengl
 .PHONY : tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/build
 
 tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/clean:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl" && $(CMAKE_COMMAND) -P CMakeFiles/tutorial_opengl.dir/cmake_clean.cmake
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl" && $(CMAKE_COMMAND) -P CMakeFiles/tutorial_opengl.dir/cmake_clean.cmake
 .PHONY : tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/clean
 
 tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/depend:
-	cd "/Users/anqizheng/desktop/computer graphics/CS3451/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/anqizheng/desktop/computer graphics/CS3451" "/Users/anqizheng/desktop/computer graphics/CS3451/tutorials/tutorial_opengl" "/Users/anqizheng/desktop/computer graphics/CS3451/build" "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl" "/Users/anqizheng/desktop/computer graphics/CS3451/build/tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/tutorials/tutorial_opengl" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl" "/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : tutorials/tutorial_opengl/CMakeFiles/tutorial_opengl.dir/depend
 

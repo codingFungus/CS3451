@@ -1,4 +1,4 @@
-# Install script for directory: /Users/anqizheng/desktop/computer graphics/CS3451/assignments
+# Install script for directory: /Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/assignments
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,14 +39,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a1/cmake_install.cmake")
-  include("/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a2/cmake_install.cmake")
-  include("/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a3/cmake_install.cmake")
-  include("/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a4/cmake_install.cmake")
-  include("/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a5/cmake_install.cmake")
-  include("/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a6/cmake_install.cmake")
-  include("/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a7/cmake_install.cmake")
-  include("/Users/anqizheng/desktop/computer graphics/CS3451/build/assignments/a8/cmake_install.cmake")
+  include("/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/assignments/a1/cmake_install.cmake")
+  include("/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/assignments/a2/cmake_install.cmake")
+  include("/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/assignments/a3/cmake_install.cmake")
+  include("/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/assignments/a4/cmake_install.cmake")
+  include("/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/assignments/a5/cmake_install.cmake")
+  include("/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/assignments/a6/cmake_install.cmake")
+  include("/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/assignments/a7/cmake_install.cmake")
+  include("/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/assignments/a8/cmake_install.cmake")
+  include("/Users/anqizheng/Desktop/computer graphics/cs3451-computer-graphics-starter-code/build/assignments/a9/cmake_install.cmake")
 
 endif()
 
