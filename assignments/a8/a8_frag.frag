@@ -18,7 +18,7 @@ out vec4 outputColor;           /* output color */
 
 #define PI 3.14159265359
 #define TWO_PI 6.28318530718
-#define Gravity 0.9             /* gravity */
+#define Gravity 0.7             /* gravity */
 #define NUM_STAR 35.            /* number of stars on the sky */
 #define NUM_EMISSION 40.        /* number of emission particles */
 #define NUM_FIREWORKS 6         /* number of fireworks */
@@ -111,7 +111,7 @@ vec3 renderStars(vec2 fragPos)
         //float brightness = .0004;
         /* your implementation starts */
         float brightness = 0.5 + 0.5 * sin(t * 0.1 + i);
-        brightness *= 0.0004;
+        brightness *= 0.0005;
         
         // Random color for each star
         vec3 color = vec3(hash1d(i + 10.), hash1d(i + 20.), hash1d(i + 30.)); // Random color generation
@@ -139,6 +139,8 @@ vec2 moveParticle(vec2 initPos, vec2 initVel, float t)
     currentPos += initVel * t + 0.5 * g * t * t;
 
     /* your implementation ends */
+
+    
 
     return currentPos;
 }
@@ -186,7 +188,7 @@ vec3 simSingleParticle(vec2 fragPos, vec2 initPos, vec2 initVel, float t, float 
 vec3 simSingleFirework(vec2 fragPos, vec2 launchPos, vec2 launchVel, float t, vec3 color)
 {
     vec3 fragColor = vec3(0.0);
-    float emitTime = 1.5;
+    float emitTime = 1.0;
 
     if(t < emitTime){
         float brightness = .002;
@@ -199,11 +201,18 @@ vec3 simSingleFirework(vec2 fragPos, vec2 launchPos, vec2 launchVel, float t, ve
         vec2 emitPos = moveParticle(launchPos, launchVel, emitTime);
 
         for(float i = 0.; i < NUM_EMISSION; i++){
-            vec2 emitVel = hash2d_polar(i) * .9;
+            vec2 emitVel = hash2d_polar(i) * 1.6;
 
             /* your implementation starts */
-            float brightness = .002 * (1.0 - emitT / DURATION);
+            float brightness = .0007 * (0.8 - emitT / DURATION);
             fragColor += simSingleParticle(fragPos, emitPos, emitVel, emitT, brightness, color);
+
+            for (int j = 1; j <= 6; j++) {
+                vec2 trailVel = emitVel * (1.0 - 0.05 * j);
+                float trailBrightness = brightness * (1.0 - 0.05* j);
+                vec3 trailColor = color * (1.0 - 0.1 * j);
+                fragColor += simSingleParticle(fragPos, emitPos, trailVel, emitT, trailBrightness, trailColor);
+            }
 
 
             /* your implementation ends */
@@ -223,8 +232,8 @@ vec3 renderFireworks(vec2 fragPos)
         float t = mod(relTime, DURATION);
         float idx = floor(relTime / DURATION);
 
-        vec2 launchPos = vec2((hash1d(idx) * 1.5 - 1.) * 0.8, -0.5);
-        vec2 launchVel = vec2(-launchPos.x * 0.66, hash1d(lauchTime + 1.5) * 0.3 + .9);
+        vec2 launchPos = vec2((hash1d(idx) * 1.8 - 1.) * 1.2, -2.5);
+        vec2 launchVel = vec2(-launchPos.x * 0.66, (hash1d(lauchTime + 1) * 0.5 + 0.8) * 3);
         vec3 color = sin(45. * hash3d(lauchTime) * idx) * 0.4 + 0.6;
 
         fragColor += simSingleFirework(fragPos, launchPos, launchVel, t, color);
